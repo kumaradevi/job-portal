@@ -1,0 +1,59 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px auto;
+  background-color: #273c75;
+  color: white;
+  height: 80px;
+}
+
+.theme-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+    color: #FC427B;
+}
+
+.nav-link ul {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+}
+.nav-link ul li {
+  cursor: pointer;
+  font-size: 18px;
+} 
+.nav-link ul li:hover{
+    color: #FC427B;
+    transition: 0.4s;
+}
+.nav-btn{
+    display: flex;
+    gap: 50px;
+    margin-right: 20px;
+}
+
+.nav-btn button {
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 17px;
+ 
+}
+.nav-btn button:hover{
+    background-color: #273c75;
+ color: white;
+ transition: 0.4s;
+ border: 1px solid white ;
+}
+.login-btn{
+    width: 80px;
+}
+.reg-btn{
+    width: 110px;
+}
